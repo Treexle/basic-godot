@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://drmr2rggnugtw"]
+
+[ext_resource type="Texture2D" uid="uid://dvvcp7x1q54t" path="res://assets/balloon.png" id="1_tpd1t"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1eawp"]
+radius = 5.0
+height = 12.543
+
+[node name="Balloon" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_tpd1t")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.0762787, -0.228834)
+shape = SubResource("CapsuleShape2D_1eawp")
