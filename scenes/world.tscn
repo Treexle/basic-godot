@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5bboyss2l5d4"]
+
+[ext_resource type="Texture2D" uid="uid://dvvcp7x1q54t" path="res://assets/balloon.png" id="1_nnsk1"]
+
+[node name="world" type="Node2D"]
+
+[node name="Balloon" type="Sprite2D" parent="."]
+position = Vector2(46, 28)
+texture = ExtResource("1_nnsk1")
