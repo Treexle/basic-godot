@@ -1,9 +1,10 @@
 [gd_scene load_steps=2 format=3 uid="uid://b5bboyss2l5d4"]
 
-[ext_resource type="Texture2D" uid="uid://dvvcp7x1q54t" path="res://assets/balloon.png" id="1_nnsk1"]
+[ext_resource type="Texture2D" uid="uid://b40ykwmg7qc6g" path="res://assets/background.png" id="1_nnsk1"]
 
 [node name="world" type="Node2D"]
 
-[node name="Balloon" type="Sprite2D" parent="."]
-position = Vector2(46, 28)
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.49375, 4.00556)
 texture = ExtResource("1_nnsk1")
+centered = false
